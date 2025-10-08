@@ -46,8 +46,7 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
@@ -72,16 +71,6 @@ p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
 }
-
-p span.i3{
-	padding-left: 4em;
-	text-indent: -1em;
-}
-
-p span.i4{
-	padding-left: 5em;
-	text-indent: -1em;
-}
 /* end of poem/verse/song */
 
 /* location specific */
@@ -98,7 +87,7 @@ p span.i4{
 #chapter-3 blockquote p,
 #chapter-4 blockquote p,
 #chapter-5 blockquote p,
-#chapter-5 blockquote > header:nth-of-type(2),
+#chapter-5 blockquote > header,
 #chapter-6 blockquote p,
 #chapter-7 blockquote p,
 #chapter-8 blockquote p,
@@ -111,10 +100,10 @@ p span.i4{
 
 #chapter-3 blockquote > header,
 #chapter-5 blockquote p:first-of-type,
-#chapter-5 blockquote > header:nth-of-type(2),
+#chapter-5 blockquote > header,
 #chapter-5 blockquote p:last-of-type,
 #chapter-9 blockquote p:nth-of-type(2),
-#chapter-p blockquote p:last-of-type{
+#chapter-10 blockquote p:last-of-type{
 	font-variant: small-caps;
 	margin-bottom: 1em;
 }
