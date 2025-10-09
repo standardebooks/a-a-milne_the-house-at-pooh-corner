@@ -82,7 +82,7 @@ p span.i2{
 #chapter-5 blockquote:first-of-type p:last-of-type,
 #chapter-5 blockquote:last-of-type p:last-of-type{
 	margin-top: -1em;
-	text-indent: 10em;
+	text-indent: 9em;
 }
 
 #chapter-9 blockquote:first-of-type p{
