@@ -79,6 +79,12 @@ p span.i2{
 	margin-top: 3em;
 }
 
+#chapter-5 blockquote:first-of-type p:last-of-type,
+#chapter-5 blockquote:last-of-type p:last-of-type{
+	margin-top: -1em;
+	text-indent: 10em;
+}
+
 #chapter-9 blockquote:first-of-type p{
 	font-style: italic;
 }
@@ -93,9 +99,9 @@ p span.i2{
 }
 
 #chapter-3 blockquote > header,
-#chapter-5 blockquote:first-of-type,
+#chapter-5 blockquote:first-of-type p:first-of-type,
 #chapter-5 blockquote header p,
-#chapter-5 blockquote:last-of-type,
+#chapter-5 blockquote:last-of-type p:first-of-type,
 #chapter-9 blockquote:nth-of-type(2) p,
 #chapter-9 blockquote:last-of-type p{
 	font-variant: small-caps;
