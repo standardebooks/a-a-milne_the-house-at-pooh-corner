@@ -102,12 +102,16 @@ p span.i2{
 }
 
 #chapter-3 blockquote > header,
-#chapter-5 blockquote:first-of-type p:first-of-type,
 #chapter-5 blockquote header p,
-#chapter-5 blockquote:last-of-type p:first-of-type,
 #chapter-9 blockquote:nth-of-type(2) p,
 #chapter-9 blockquote:last-of-type p{
 	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+#chapter-5 blockquote:first-of-type p:first-of-type,
+#chapter-5 blockquote:last-of-type p:first-of-type{
+	font-variant: all-small-caps;
 	margin-bottom: 1em;
 }
 
@@ -164,3 +168,8 @@ table[epub|type~="z3998:drama"]{
 	font-variant: all-small-caps;
 }
 /* end drama */
+
+/* all small caps for non-semantical caps */
+span.asc{
+	font-variant: all-small-caps;
+}
