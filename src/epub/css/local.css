@@ -119,6 +119,11 @@ p span.i2{
 	margin-bottom: 1em;
 }
 
+#chapter-9 > p:first-of-type > q{
+	font-variant: small-caps;
+	font-style: normal;
+}
+
 /* drama */
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
@@ -173,7 +178,7 @@ table[epub|type~="z3998:drama"]{
 }
 /* end drama */
 
-/* all small caps for non-semantical caps */
-span.asc{
-	font-variant: all-small-caps;
+/* signature */
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }
