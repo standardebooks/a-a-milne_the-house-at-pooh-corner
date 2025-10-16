@@ -116,8 +116,8 @@ p span.i2{
 }
 
 #chapter-9 > p:first-of-type > q{
-	font-variant: small-caps;
 	font-style: normal;
+	font-variant: small-caps;
 }
 
 /* drama */
