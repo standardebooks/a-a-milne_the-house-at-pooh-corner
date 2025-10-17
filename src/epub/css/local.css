@@ -82,7 +82,7 @@ p span.i2{
 
 /* location specific */
 #dedication p{
-	font-variant: small-caps;
+	font-style: italic;
 	margin-top: 3em;
 }
 
@@ -94,6 +94,10 @@ p span.i2{
 
 #chapter-9 blockquote:first-of-type p{
 	font-style: italic;
+}
+
+#chapter-3 blockquote[epub|type~="z3998:song"]:last-of-type p > span{
+	padding: 0;
 }
 
 #chapter-3 blockquote:last-of-type p,
