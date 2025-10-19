@@ -96,8 +96,14 @@ p span.i2{
 	font-style: italic;
 }
 
-#chapter-3 blockquote[epub|type~="z3998:song"]:last-of-type p > span{
-	padding: 0;
+#chapter-3 blockquote[epub|type~="z3998:song"]:last-of-type p{
+	display: inline-block;
+	text-align: initial;
+}
+
+#chapter-3 blockquote[epub|type~="z3998:song"]:last-of-type{
+	margin: 1em auto;
+	text-align: center;
 }
 
 #chapter-3 blockquote:last-of-type p,
