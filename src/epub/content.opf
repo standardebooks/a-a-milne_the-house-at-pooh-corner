@@ -62,7 +62,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/73011</dc:source>
 		<dc:source>https://archive.org/details/the-house-at-pooh-corner</dc:source>
-		<meta property="se:word-count">26955</meta>
+		<meta property="se:word-count">26053</meta>
 		<meta property="se:reading-ease.flesch">83.15</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_House_at_Pooh_Corner</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/a-a-milne_the-house-at-pooh-corner</meta>
