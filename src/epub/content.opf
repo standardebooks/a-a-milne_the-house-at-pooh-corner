@@ -56,7 +56,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Winnie-the-Pooh</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">4</meta>
-		<dc:abstract>A stuffed bear goes on adventures in the woods with his friends.</dc:abstract>
+		<meta property="schema:abstract">A stuffed bear goes on adventures in the woods with his friends.</meta>
 		<dc:description>
 			&lt;p&gt;This entry in the &lt;i&gt;&lt;a href="https://standardebooks.org/collections/winnie-the-pooh"&gt;Winnie-the-Pooh series&lt;/a&gt;&lt;/i&gt; continues the adventures of Pooh and his friends in the Hundred Acre Wood. This volume introduces Tigger, an unintentional troublemaker who might bounce just a little too much. The stories center on themes of friendship, bravery, all-around silliness, and even sadness as Christopher Robin grows up.&lt;/p&gt;
 		</dc:description>
